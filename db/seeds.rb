@@ -354,7 +354,7 @@ mixes = Mix.create([
 
         users = User.create([
             {
-                email: "gibbzmudoga@gmail.com"
+                email: "gibbzmudoga@gmail.com",
                 password: "DARKCHILD2050",
                username:"daqchild",
             }
