@@ -9,98 +9,23 @@ puts "Seeding database..."
 events = Event.create([
     
     {
-    
-    poster: "https://res.cloudinary.com/dakiak4mc/image/upload/v1676210685/wczmwt1g1ds6v0l9gkl7.jpg",
-   
-    location: "Quiver Lounge",
-    date: "2023-02-14"
-    },
-    {
-   
-    poster: "https://res.cloudinary.com/dakiak4mc/image/upload/v1676210643/za9xdoemaqhjmkvfnvt2.jpg",
-   
-    location: "Nakuru",
-    date: "2023-02-15"
-    },
-    {
-  
-    poster: "https://res.cloudinary.com/dakiak4mc/image/upload/v1676210725/ynimyy2tqhwn3ccrav25.jpg",
-   
-    location: "Eldoret",
-    date: "2023-02-17"
-    }
-])
-
-mixes = Mix.create([
-    
-      
-{
-    
-    audio_mp3: "https://res.cloudinary.com/dakiak4mc/video/upload/v1677432880/rgaxrulvnuzngznslufm.m4a",
-    poster: "https://res.cloudinary.com/dakiak4mc/image/upload/v1677432825/ipqk229k45berfp1s5nq.jpg",
-    name: "KOGT live at HIDEOUT DUBAI ",
-    likes: 7,
-    plays: 2,
-    genre: "Afrobeat",
-    downloads: 4,
-   
-    },
-    {
        
-        audio_mp3: "https://res.cloudinary.com/dakiak4mc/video/upload/v1677433441/lzcrwrnniyj8axb8qapo.m4a",
-        poster: "https://res.cloudinary.com/dakiak4mc/image/upload/v1677433393/ion8j6inzua5nuodosrs.jpg",
-        name: "The Lockdown Sessions Ft Gibbz Tha Daqchild Dj Babu Dubai",
-        likes: 1,
-        plays: 2,
-        genre: "Hip Hop",
-        downloads: 0,
+        "poster": "https://res.cloudinary.com/dakiak4mc/image/upload/v1678949951/qzwdddpksm7jbysjm2wk.jpg",
+        "location": "Velar Lounge",
+        "date": "2023-03-17",
         
         },
-    {
-    
-    audio_mp3: "https://res.cloudinary.com/dakiak4mc/video/upload/v1677434070/n4req8bmfj0xqntt4txs.m4a",
-    poster: "https://res.cloudinary.com/dakiak4mc/image/upload/v1677434030/tsomwbawkbrcewxkuka6.jpg",
-    name: "NAIROBI TO JOZI VOL.2 2022 AMAPIANO BANGERS mixxed by DJ GIBBZ THADAQCHILD",
-    likes: 0,
-    plays: 1,
-    genre: "Amapiano",
-    downloads: 1,
-    
-    },
-    {
-   
-    audio_mp3: "https://res.cloudinary.com/dakiak4mc/video/upload/v1677434668/hhyyufxmoavvqzis6q3w.m4a",
-    poster: "https://res.cloudinary.com/dakiak4mc/image/upload/v1677434620/hxdjardu8eoksmnde8z7.jpg",
-    name: "''IT IS WHAT IT IS'' DJ GIBBZ THADAQCHILD mix",
-    likes: 2,
-    plays: 3,
-    genre: "Afrobeat",
-    downloads: 0,
-    
-    },
-    {
-    
-    audio_mp3: "https://res.cloudinary.com/dakiak4mc/video/upload/v1677435367/n7wxyxbbq6bwbd3brrt6.m4a",
-    poster: "https://res.cloudinary.com/dakiak4mc/image/upload/v1677435243/ppyrqcnhq4r0qhjnjyi1.jpg",
-    name: "LOCKDOWN SESSION with Dj Gibbz thadaqchild x Dj Grauchi",
-    likes: 0,
-    plays: 0,
-    genre: "All Genres",
-    downloads: 0,
-   
-    },
-    {
-   
-    audio_mp3: "https://res.cloudinary.com/dakiak4mc/video/upload/v1677435797/czye9itoflesxcgldbmq.m4a",
-    poster: "https://res.cloudinary.com/dakiak4mc/image/upload/v1677435765/pax26zdvoel4i6ddma31.jpg",
-    name: "LOCKDOWN SESSION 5.0 THICK THIGHS ft KAYTHEDJ",
-    likes: 0,
-    plays: 0,
-    genre: "Amapiano",
-    downloads: 0,
-  
-    }
-    ])
+        {
+       
+        "poster": "https://res.cloudinary.com/dakiak4mc/image/upload/v1678950048/uzeguu9bndihks3ygeef.jpg",
+        "location": "Enish Lounge Dubai",
+        "date": "2023-03-18",
+        
+        }
+        
+])
+
+
 
 
     products = Product.create([
@@ -352,6 +277,99 @@ mixes = Mix.create([
 
         ])
 
+
+
+        mixes = Mix.create([
+    
+      
+            {
+                
+                audio_mp3: "https://res.cloudinary.com/dakiak4mc/video/upload/v1677432880/rgaxrulvnuzngznslufm.m4a",
+                poster: "https://res.cloudinary.com/dakiak4mc/image/upload/v1677432825/ipqk229k45berfp1s5nq.jpg",
+                name: "KOGT live at HIDEOUT DUBAI ",
+                likes: 7,
+                plays: 2,
+                genre: "Afrobeat",
+                downloads: 4,
+               
+                },
+                {
+                   
+                    audio_mp3: "https://res.cloudinary.com/dakiak4mc/video/upload/v1677433441/lzcrwrnniyj8axb8qapo.m4a",
+                    poster: "https://res.cloudinary.com/dakiak4mc/image/upload/v1677433393/ion8j6inzua5nuodosrs.jpg",
+                    name: "The Lockdown Sessions Ft Gibbz Tha Daqchild Dj Babu Dubai",
+                    likes: 1,
+                    plays: 2,
+                    genre: "Hip Hop",
+                    downloads: 0,
+                    
+                    },
+                {
+                
+                audio_mp3: "https://res.cloudinary.com/dakiak4mc/video/upload/v1677434070/n4req8bmfj0xqntt4txs.m4a",
+                poster: "https://res.cloudinary.com/dakiak4mc/image/upload/v1677434030/tsomwbawkbrcewxkuka6.jpg",
+                name: "NAIROBI TO JOZI VOL.2 2022 AMAPIANO BANGERS mixxed by DJ GIBBZ THADAQCHILD",
+                likes: 0,
+                plays: 1,
+                genre: "Amapiano",
+                downloads: 1,
+                
+                },
+                {
+               
+                audio_mp3: "https://res.cloudinary.com/dakiak4mc/video/upload/v1677434668/hhyyufxmoavvqzis6q3w.m4a",
+                poster: "https://res.cloudinary.com/dakiak4mc/image/upload/v1677434620/hxdjardu8eoksmnde8z7.jpg",
+                name: "''IT IS WHAT IT IS'' DJ GIBBZ THADAQCHILD mix",
+                likes: 2,
+                plays: 3,
+                genre: "Afrobeat",
+                downloads: 0,
+                
+                },
+                {
+                
+                audio_mp3: "https://res.cloudinary.com/dakiak4mc/video/upload/v1677435367/n7wxyxbbq6bwbd3brrt6.m4a",
+                poster: "https://res.cloudinary.com/dakiak4mc/image/upload/v1677435243/ppyrqcnhq4r0qhjnjyi1.jpg",
+                name: "LOCKDOWN SESSION with Dj Gibbz thadaqchild x Dj Grauchi",
+                likes: 0,
+                plays: 0,
+                genre: "All Genres",
+                downloads: 0
+               
+                },
+                {
+               
+                audio_mp3: "https://res.cloudinary.com/dakiak4mc/video/upload/v1677435797/czye9itoflesxcgldbmq.m4a",
+                poster: "https://res.cloudinary.com/dakiak4mc/image/upload/v1677435765/pax26zdvoel4i6ddma31.jpg",
+                name: "LOCKDOWN SESSION 5.0 THICK THIGHS ft KAYTHEDJ",
+                likes: 0,
+                plays: 0,
+                genre: "Amapiano",
+                downloads: 0
+              
+                },
+                {
+                    
+                    audio_mp3: "https://res.cloudinary.com/dakiak4mc/video/upload/v1678950590/lrxntgf5mxqdzqjeeg1i.mp3",
+                    poster: "https://res.cloudinary.com/dakiak4mc/image/upload/v1678950420/ghlciais4ytokwdpj8dq.jpg",
+                    name: "LOCKDOWN SESSIONS 17TH FEB",
+                    likes: 5537,
+                    plays: 4078,
+                    genre: "All Genres",
+                    downloads: 3090
+                    },
+                    {
+                        
+                        audio_mp3: "https://res.cloudinary.com/dakiak4mc/video/upload/v1678950798/t6v7qtxk3a7yoxec1pon.mp3",
+                        poster: "https://res.cloudinary.com/dakiak4mc/image/upload/v1678950747/rcrlc7oe1zyamdn9qog9.jpg",
+                        name: "DANCEHALL MIX 2023",
+                        likes: 9636,
+                        plays: 4575,
+                        genre: "Reggae",
+                        downloads: 2919,
+                        
+                        }
+                ])
         users = User.create([
             {
                 email: "gibbzmudoga@gmail.com",
